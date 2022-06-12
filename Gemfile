@@ -51,6 +51,9 @@ gem "simple_form"
 # Add a gem for highlighting active links
 gem "active_link_to"
 
+# Add the profanity filter
+gem "profanity_filter"
+
 # Attempting to remove errors from my Terminal
 gem "net-http"
 
