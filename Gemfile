@@ -54,6 +54,10 @@ gem "simple_form"
 # Add a gem for highlighting active links
 gem "active_link_to"
 
+# Attempting to remove errors from my Terminal
+gem "net-http"
+
+
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
 # gem "image_processing", "~> 1.2"
 

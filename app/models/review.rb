@@ -1,5 +1,8 @@
 class Review < ApplicationRecord
 
+    # Add an association that has a one-to-many relationship
+    has_many :comments
+    
     geocoded_by :address
     after_validation :geocode
     
