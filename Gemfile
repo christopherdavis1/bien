@@ -48,6 +48,12 @@ gem "sassc-rails"
 # Add in our geocoding
 gem "geocoder"
 
+# Add simple form
+gem "simple_form"
+
+# Add a gem for highlighting active links
+gem "active_link_to"
+
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
 # gem "image_processing", "~> 1.2"
 
