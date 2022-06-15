@@ -15,6 +15,8 @@ class UsersController < ApplicationController
         @user = User.new(form_params)
 
         if @user.save 
+            # Save the session with the user
+            session[:user_id] = @user.id
             redirect_to users_path
         else
             render "new"
